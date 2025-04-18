@@ -29,19 +29,19 @@
 
 ### YOLOX-l による検出のみ
 
-<video src="https://github.com/t034xc/programming-unity-sentis/raw/refs/heads/master/demo/demo-yolox_l.mp4" controls="true"></video>
+https://github.com/t034xc/programming-unity-sentis/blob/master/demo/demo-yolox_l.mp4
 
 ### YOLOX-l による検出 + ResNet152 による分類
 
-<video src="https://github.com/t034xc/programming-unity-sentis/raw/refs/heads/master/demo/demo-yolox_l-resnet152.mp4" controls="true"></video>
+https://github.com/t034xc/programming-unity-sentis/blob/master/demo/demo-yolox_l-resnet152.mp4
 
 ### YOLOX-nano による検出のみ
 
-<video src="https://github.com/t034xc/programming-unity-sentis/raw/refs/heads/master/demo/demo-yolox_nano.mp4" controls="true"></video>
+https://github.com/t034xc/programming-unity-sentis/blob/master/demo/demo-yolox_nano.mp4
 
 ### YOLOX-nano による検出 + MobileNetV2 による分類
 
-<video src="https://github.com/t034xc/programming-unity-sentis/raw/refs/heads/master/demo/demo-yolox_nano-mobilenetv2_050.mp4" controls="true"></video>
+https://github.com/t034xc/programming-unity-sentis/blob/master/demo/demo-yolox_nano-mobilenetv2_050.mp4
 
 ## モバイルデバイスでのパフォーマンスに関して
 
