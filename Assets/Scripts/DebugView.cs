@@ -13,11 +13,17 @@ public class DebugView : MonoBehaviour
     {
         this.textMeshPro = base.GetComponent<TextMeshProUGUI>();
 
+
+#if UNITY_STANDALONE || UNITY_EDITOR
+        // Change the target frame rate to the maximize value from default value.
+        QualitySettings.vSyncCount = 0;
+#else
         // Change the target frame rate to the maximize value from default value.
         Application.targetFrameRate = (int)Screen.currentResolution.refreshRateRatio.value;
+#endif
 
         this.SetDebugParameter("SystemInfo.supportsComputeShaders", SystemInfo.supportsComputeShaders);
-        this.SetDebugParameter("SystemInfo.deviceName", SystemInfo.deviceName);
+        this.SetDebugParameter("SystemInfo.deviceModel", SystemInfo.deviceModel);
         this.SetDebugParameter("Application.targetFrameRate", Application.targetFrameRate);
         this.SetDebugParameter("Screen.currentResolution.refreshRateRatio", Screen.currentResolution.refreshRateRatio);
         this.SetDebugParameter("QualitySettings.vSyncCount", QualitySettings.vSyncCount);
