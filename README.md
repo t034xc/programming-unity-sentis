@@ -2,6 +2,8 @@
 
 オブジェクト検出とクラス分類をリアルタイムで行うアプリのサンプルです.
 
+![](https://github.com/user-attachments/assets/42e99dca-54b6-4b5a-a3e6-413d7b231b8c)
+
 ## 開発環境
 
 - Windows 11 Pro
